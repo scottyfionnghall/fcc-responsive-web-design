@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey Form</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="title">scotty's Survey Form</h1>
+    <p id="description">my survey form for freeCodeCamp course</p>
+    <form id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Name: <input required placeholder="Enter your name" id="name"
+                    type="text" /></label>
+            <label for="email" id="email-label">Email: <input required placeholder="Enter your Email" id="email"
+                    type="email" /></label>
+            <label for="number" id="number-label">Age<span class="clue">(optional)</span>: <input placeholder="Age"
+                    id="number" type="number" min="13" max="120" /></label>
+        </fieldset>
+        <fieldset>
+            <label for="dropdown"> What is better?
+                <select id="dropdown">
+                    <option value="">Select food</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="lasagna">Lasagna</option>
+                </select>
+            </label>
+            <p>Would you dance with me?</p>
+                <label for="wouldyou"><input name="wouldyou" type="radio" value="yes" class="inline" />Yes :3</label>
+                <label for="wouldyou"><input name="wouldyou" type="radio" value="no" class="inline" />NO</label>
+            <p id="form-desc">Check left or right:</p>
+            <label for="left"><input  class="inline" name="dir" value="left" type="checkbox" id="left" />Left</label>
+            <label for="right"><input  class="inline" name="dir" value="right" type="checkbox" id="right" />Right</label>
+        </fieldset>
+        <fieldset>
+            <p id="form-desc">Give additional info:</p>
+            <textarea rows="3" cols="10" placeholder="Something goes right here"></textarea>
+            <input id="submit" type="submit" title="submit" />
+        </fieldset>
+    </form>
+</body>
+
+</html>
