@@ -15,7 +15,7 @@
 <body>
     <h1 id="title">scotty's Survey Form</h1>
     <p id="description">my survey form for freeCodeCamp course</p>
-    <form id="survey-form">
+    <form id="survey-form" action="https:\\127.0.0.1:80" method="post">
         <fieldset>
             <label for="name" id="name-label">Name: <input required placeholder="Enter your name" id="name"
                     type="text" /></label>
@@ -33,11 +33,11 @@
                 </select>
             </label>
             <p>Would you dance with me?</p>
-                <label for="wouldyou"><input name="wouldyou" type="radio" value="yes" class="inline" />Yes :3</label>
-                <label for="wouldyou"><input name="wouldyou" type="radio" value="no" class="inline" />NO</label>
+            <label for="wouldyou"><input name="wouldyou" type="radio" value="yes" class="inline" />Yes :3</label>
+            <label for="wouldyou"><input name="wouldyou" type="radio" value="no" class="inline" />NO</label>
             <p id="form-desc">Check left or right:</p>
-            <label for="left"><input  class="inline" name="dir" value="left" type="checkbox" id="left" />Left</label>
-            <label for="right"><input  class="inline" name="dir" value="right" type="checkbox" id="right" />Right</label>
+            <label for="left"><input class="inline" name="dir" value="left" type="checkbox" id="left" />Left</label>
+            <label for="right"><input class="inline" name="dir" value="right" type="checkbox" id="right" />Right</label>
         </fieldset>
         <fieldset>
             <p id="form-desc">Give additional info:</p>
