@@ -13,3 +13,5 @@
 - Lesson 6: Learn CSS Flexbox by Building a Photo Gallery
 
 - Lesson 7: Learn Typography by Building a Nutrition Label
+
+- Lesson 8: Learn Accessibility by Building a Quiz
