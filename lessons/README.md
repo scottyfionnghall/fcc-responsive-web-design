@@ -15,3 +15,5 @@
 - Lesson 7: Learn Typography by Building a Nutrition Label
 
 - Lesson 8: Learn Accessibility by Building a Quiz
+
+- Lesson 9: Learn More About CSS Pseudo Selectors by Building A Balance Sheet
